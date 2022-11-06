@@ -1,0 +1,7 @@
+a.button,
+button.button {
+  // ... existing styles
+  &:hover {
+    background-color: scale-color($btnColor, $lightness: -20%);
+  }
+}
